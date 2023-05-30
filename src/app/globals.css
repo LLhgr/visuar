@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body::-webkit-scrollbar {
+  width: 5px;             
+}
+
+body::-webkit-scrollbar-track {
+  background: #212121;     
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#FF42D5, #2842CA); 
+  
+  border-radius: 10px;     
+}
